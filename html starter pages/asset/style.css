@@ -1,0 +1,56 @@
+#logo {
+    border          : black solid 3px;
+    margin          : 1px;
+    display         : flex;
+    flex-direction  : row;
+    align-items     : flex-end;
+    justify-content : space-between;
+    background-color: rgb(12, 10, 10);
+    align-items     : center;
+}
+
+.btn-group {
+    margin: 1px;
+    border: black 2px solid;
+}
+
+h1 {
+    color: white
+}
+
+.checks {
+    display        : flex;
+    text-align     : center;
+    border         : solid 3px rgb(115, 115, 161);
+    flex-direction : row;
+    flex-wrap      : nowrap;
+    justify-content: space-evenly;
+}
+
+#selectStates {
+    border: solid rgb(115, 115, 161) 2px;
+}
+
+.filtro {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-around;
+    flex-wrap      : wrap;
+    align-items    : stretch;
+    align-content  : space-around
+}
+
+#democrats {
+    margin            : 5px;
+    padding-inline-end: 3px;
+}
+
+#republicans {
+    margin            : 5px;
+    padding-inline-end: 3px;
+}
+
+#independents {
+    margin            : 5px;
+    padding-inline-end: 3px;
+}
